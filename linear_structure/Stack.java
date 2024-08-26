@@ -34,22 +34,22 @@ public class Stack<T> {
         }
     }
 
-    public static void main(String args[]) {
-        Stack<Integer> stack_int = new Stack<Integer>();
-        Stack<String> stack_str = new Stack<String>();
-
-        stack_int.push(1);
-        stack_int.push(2);
-        stack_int.push(3);
-        System.out.println(stack_int.pop());  // '3'
-        System.out.println(stack_int.pop());  // '2'
-        System.out.println(stack_int.pop());  // '1'
-
-        stack_str.push("One");
-        stack_str.push("Two");
-        stack_str.push("Three");
-        System.out.println(stack_str.pop());  // 'Three'
-        System.out.println(stack_str.pop());  // 'Two'
-        System.out.println(stack_str.pop());  // 'One'
-    }
+//    public static void main(String args[]) {
+//        Stack<Integer> stack_int = new Stack<Integer>();
+//        Stack<String> stack_str = new Stack<String>();
+//
+//        stack_int.push(1);
+//        stack_int.push(2);
+//        stack_int.push(3);
+//        System.out.println(stack_int.pop());  // '3'
+//        System.out.println(stack_int.pop());  // '2'
+//        System.out.println(stack_int.pop());  // '1'
+//
+//        stack_str.push("One");
+//        stack_str.push("Two");
+//        stack_str.push("Three");
+//        System.out.println(stack_str.pop());  // 'Three'
+//        System.out.println(stack_str.pop());  // 'Two'
+//        System.out.println(stack_str.pop());  // 'One'
+//    }
 }
