@@ -38,10 +38,10 @@ public class MaxHeap {
     		throw new IllegalStateException("힙이 비었습니다.");
     	}
     	
-    	int removed = heap[1];
-    	heap[1] = heap[size];
+    	int removed = heap[0];
+    	heap[0] = heap[size];
     	size--;
-    	heapifyDown(1);
+    	heapifyDown(0);
 
     	return removed;
     }
