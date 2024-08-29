@@ -44,9 +44,10 @@ public class QuickSortForString {
         quickSort(start + less.length + 1, end); // more 부분 정렬
     }
 
+    /*
     public static void main(String[] args) {
         sorted = Arrays.copyOfRange(origin, 0, origin.length); // origin 배열 복사
         quickSort(0, origin.length - 1); // 퀵소트 실행
         System.out.println(Arrays.toString(sorted)); // 결과 출력
-    }
+    }*/
 }
