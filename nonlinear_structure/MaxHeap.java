@@ -62,7 +62,7 @@ public class MaxHeap {
 	    	}
 	    	
 	    	swap(index, largeChild);
-	    	index = leftChild;
+	    	index = largeChild;
     	}
     	   	
     }
