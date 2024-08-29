@@ -75,9 +75,9 @@ public class MaxHeap {
 
     public void printTree() {  // 힙을 트리 모양으로 출력해주는 함수
         int level = 0;
-        int items = 1;
+        int items = 0;
 
-        for (int i = 1; i <= size; i++) {
+        for (int i = 0; i < size; i++) {
             if (i == Math.pow(2, level)) {
                 System.out.println();
                 level++;
@@ -102,7 +102,7 @@ public class MaxHeap {
         maxHeap.insert(80);
 
         System.out.println("Heap array:");
-        System.out.println(Arrays.toString(Arrays.copyOfRange(maxHeap.heap, 1, maxHeap.size + 1)));
+        System.out.println(Arrays.toString(Arrays.copyOfRange(maxHeap.heap, 0, maxHeap.size)));
 
         System.out.println("\nHeap tree:");
         maxHeap.printTree();
