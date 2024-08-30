@@ -39,6 +39,7 @@ public class BOJ2630 {
         }
     }
 
+    /*
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         N = Integer.parseInt(br.readLine());
@@ -54,5 +55,5 @@ public class BOJ2630 {
         divide(0, 0, N);
         System.out.println(white);
         System.out.println(blue);
-    }
+    }*/
 }
